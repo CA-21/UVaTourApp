@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Team32Activity!</string>
+    <string name="app_name">Team32 Android Tour</string>
+    <string name="Welcome">Welcome to Team 32 Tour</string>
+    <string name="authors">Authors:&quot;\n&quot;Alex Harasty&quot;\n&quot;Alyssa Lambert&quot;\n&quot;Kunal Patel&quot;\n&quot;Axel Tarnvik</string>
+    <string name="tourBegin">Begin Tour</string>
+    <string name="feature1">feature1</string>
+    <string name="feature2">feature2</string>
+    <string name="feature3">feature3</string>
+    <string name="map">Map</string><string name="settings">Settings</string>
+    
+    <string name="nextLocation">Your Next Destination:</string>
+    <string name="timeElapsed">Time:</string>
+    <string name="distanceFromTarget">Approaching Target:</string>
+    <string name="quit">Quit</string>
+    <string name="tryAgain">Try Again?</string>
+    <string name="congrats">Congratulations!&quot;\n&quot;You Completed Team 32 Tour</string>
+    <string name="currentLoc">Current Location</string>
+    <string name="locInfo">Location Info</string>
+    <string name="buttonNextLoc">Next Location</string>
+    <string name="nextLocCord">Next Location Coordinates:</string>
+    <string name="userLoc">Current Location</string>
+
+</resources>

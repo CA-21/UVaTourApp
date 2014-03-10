@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <RelativeLayout
+       android:id="@+id/congratulations"
+       
+       android:layout_width="wrap_content"
+       android:layout_height="125dp">
+            	
+                <TextView
+                    android:id="@+id/congrats"                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/congrats"
+                    android:textSize="32dp"
+                    android:textStyle="bold" >
+                    
+                </TextView>
+                </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/tryagain"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/tryAgain" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+                <ImageView
+                android:id="@+id/test_image"
+                android:layout_width="330dp"
+                android:layout_height="200dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:src="@drawable/uva_logo" />
+                
+    </FrameLayout>
+	
+ </RelativeLayout>
